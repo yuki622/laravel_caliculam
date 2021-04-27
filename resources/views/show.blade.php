@@ -19,6 +19,13 @@
                 <p>{{ $post->body }}</p>
                 <p class='updated_at'>{{ $post->updated_at }}</p>
             </div>
+        </div> 
+        <div class="edit">
+            <a href="/posts/{post}/edit">
+                <input type="submit" value="edit"/>
+            </a> 
+        </div>
+            
         <div class='footer'>
             <a href='/'>back</a>
         </div>
