@@ -15,7 +15,6 @@
         </h2>
         <div class='content'>
             <div class='content_post'>
-                <h4>やほー</h4>
                 <p>{{ $post->body }}</p>
                 <p class='updated_at'>{{ $post->updated_at }}</p>
             </div>
